@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../src/myCss.css">
+        <script src="../src/Myjs.js"></script>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+        <fieldset id="container">
+         
+        <table style="background-color: cornflowerblue;" style="border: 0;" width="170" height="150">
+            <tr>
+                <input class="display-box" type="text" id="result">
+                <td><button onclick="display('7')" style="margin: auto; padding: 20%;">7</button></td>
+                <td><button onclick="display('8')" style="margin: auto; padding: 20%;">8</button></td>
+                <td><button onclick="display('9')" style="margin: auto; padding: 20%;">9</button></td>
+                <td><button onclick="display('+')" style="margin: auto; padding: 20%;">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('4')" style="margin: auto; padding: 20%;">4</button></td>
+                <td><button onclick="display('5')" style="margin: auto; padding: 20%;">5</button></td>
+                <td><button onclick="display('6')" style="margin: auto; padding: 20%;">6</button></td>
+                <td><button onclick="display('-')" style="margin: auto; padding: 20%;">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('3')" style="margin: auto; padding: 20%;">3</button></td>
+                <td><button onclick="display('2')" style="margin: auto; padding: 20%;">2</button></td>
+                <td><button onclick="display('1')" style="margin: auto; padding: 20%;">1</button></td>
+                <td><button onclick="display('*')" style="margin: auto; padding: 20%;">X</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="clear()" style="margin: auto; padding: 20%;">C</button></td>
+                <td><button onclick="display('0')" style="margin: auto; padding: 20%;">0</button></td>
+                <td><button onclick="calc()" style="margin: auto; padding: 20%;">=</button></td>
+                <td><button onclick="display('/')" style="margin: auto; padding: 20%;">/</button></td>
+            </tr>
+        </table>
+    </fieldset>
+</div>
+    </body>
+</html>
